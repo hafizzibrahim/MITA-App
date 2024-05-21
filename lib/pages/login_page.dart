@@ -25,7 +25,7 @@ class LoginPage extends StatelessWidget {
             ),
           ),
           SizedBox(height: 16,),
-          CustomeButton( height: 50, color: orangeColor, title: 'Login', onTap: (){Navigator.pushNamed(context, '');},)
+          CustomeButton( height: 50, color: orangeColor, title: 'Login', onTap: (){Navigator.pushNamed(context, '/main-page');},)
         ],
       ),
     );
